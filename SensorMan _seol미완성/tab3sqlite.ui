@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>tab3Sqlite</class>
+ <widget class="QWidget" name="tab3Sqlite">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>674</width>
+    <height>530</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="5,5,2,2">
+       <item>
+        <widget class="QDateTimeEdit" name="pDateTimeEditFrom"/>
+       </item>
+       <item>
+        <widget class="QDateTimeEdit" name="pDateTimeEditTo"/>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pPBsertchDB">
+         <property name="text">
+          <string>조회</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pPOdeldeteDB">
+         <property name="text">
+          <string>삭제</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout" stretch="5,5">
+       <item>
+        <widget class="QTableWidget" name="pTBsensor">
+         <attribute name="horizontalHeaderMinimumSectionSize">
+          <number>23</number>
+         </attribute>
+         <attribute name="horizontalHeaderDefaultSectionSize">
+          <number>50</number>
+         </attribute>
+         <column>
+          <property name="text">
+           <string>ID</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>날짜</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>조도</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>온도</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>습도</string>
+          </property>
+         </column>
+        </widget>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="pChartViewLayout"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,11 @@
+debug/ledkeydev.o
+debug/main.o
+debug/mainwidget.o
+debug/socketclient.o
+debug/tab1devcontrol.o
+debug/tab2socketclient.o
+debug/moc_ledkeydev.o
+debug/moc_mainwidget.o
+debug/moc_socketclient.o
+debug/moc_tab1devcontrol.o
+debug/moc_tab2socketclient.o

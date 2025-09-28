@@ -1,0 +1,11 @@
+release/attendancetable.o
+release/main.o
+release/mainwidget.o
+release/mjpgview.o
+release/sockclient.o
+release/warning.o
+release/moc_attendancetable.o
+release/moc_mainwidget.o
+release/moc_mjpgview.o
+release/moc_sockclient.o
+release/moc_warning.o

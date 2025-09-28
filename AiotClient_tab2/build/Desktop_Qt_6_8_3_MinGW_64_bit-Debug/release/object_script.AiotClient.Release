@@ -1,0 +1,11 @@
+release/ledkeydev.o
+release/main.o
+release/mainwidget.o
+release/socketclient.o
+release/tab1devcontrol.o
+release/tab2socketclient.o
+release/moc_ledkeydev.o
+release/moc_mainwidget.o
+release/moc_socketclient.o
+release/moc_tab1devcontrol.o
+release/moc_tab2socketclient.o
